@@ -13,7 +13,7 @@
   height: 120px;
 }
 
-.profile__wrapper_first {
+.profile__wrapper_name {
   margin: 0;
   padding: 0;
   display: flex;
@@ -21,7 +21,7 @@
   gap: 18px;
 }
 
-.profile__wrapper_second {
+.profile__wrapper_description {
   margin: 0;
   padding: 0;
   padding-left: 30px;
@@ -135,13 +135,13 @@
     height: 16px;
   }
 
-  .profile__wrapper_second {
+  .profile__wrapper_description {
     margin: 0;
     padding: 0;
     align-items: center;
   }
 
-  .profile__wrapper_first {
+  .profile__wrapper_name {
     gap: 10px;
   }
 
