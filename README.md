@@ -11,7 +11,7 @@ This is the third project at TripleTen Software Engineering Bootcamp. This stage
 
 **Github Pages Link**
 
-- [Link to the project on Github Pages]()
+- [Link to the project on Github Pages](https://bearbaubles.github.io/se_project_aroundtheus)
 
 ## Plans for improvement
 
