@@ -6,7 +6,7 @@
   grid-gap: 20px 17px;
 }
 
-.element {
+.elements__card {
   margin: 0;
   padding: 0;
 }
@@ -24,10 +24,11 @@
   margin: 0;
   padding: 0;
   background-color: #fff;
-  height: 79px;
   border-radius: 0 0 10px 10px;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  position: relative;
   display: flex;
-  justify-content: space-around;
   align-items: center;
 }
 
@@ -35,6 +36,7 @@
   margin: 0;
   padding: 0;
   padding-left: 20px;
+  margin-right: 43px;
   font-family: "Inter", sans-serif;
   font-size: 24px;
   line-height: 1.2;
@@ -46,17 +48,15 @@
 .elements__like-button {
   margin: 0;
   padding: 0;
-  padding-right: 20px;
-  background-color: #fff;
+  width: 21px;
+  height: 18px;
+  position: absolute;
+  right: 20px;
+  background: url(../images/heart.svg) no-repeat;
   border: none;
   transition: opacity 1s ease-in-out;
 }
 
 .elements__like-button:hover {
-  opacity: 60%;
-}
-
-.elements__like-button_picture {
-  margin: 0;
-  padding: 0;
+  opacity: 50%;
 }
