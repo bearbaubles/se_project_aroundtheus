@@ -17,15 +17,12 @@
 
 @media screen and (max-width: 320px) {
   .header {
-    margin: 0;
-    padding: 0;
     padding-top: 28px;
     padding-bottom: 32px;
     width: 100vw;
     align-self: flex-start;
   }
   .header__logo {
-    padding: 0;
     width: 126px;
     height: 24px;
     padding-left: 27px;
