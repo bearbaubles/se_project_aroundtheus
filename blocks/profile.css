@@ -101,7 +101,6 @@
 
   .profile__add-button {
     width: 120px;
-    height: 50px;
     background-size: 20px;
   }
 
@@ -120,7 +119,6 @@
     margin: 0;
     padding: 0;
     flex-direction: column;
-    align-items: center;
   }
 
   .profile__picture {
@@ -130,26 +128,17 @@
 
   .profile__name {
     max-width: 196px;
-    font-size: 22px;
-    line-height: 1.2;
-  }
-
-  .profile__edit-button {
-    background-size: 7.5px;
-    width: 18px;
-    height: 18px;
   }
 
   .profile__add-button {
     margin: 0;
-    padding: 0;
     margin-bottom: 36px;
     background-size: 16px;
-    width: 282px;
+    width: 100%;
+    max-width: 282px;
   }
 
   .profile__wrapper-description {
-    margin: 0;
     padding: 0;
     align-items: center;
   }
@@ -160,7 +149,6 @@
 
   .profile__description {
     max-width: 282px;
-    font-size: 14px;
     margin-bottom: 36px;
   }
 }
